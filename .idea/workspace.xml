@@ -1,15 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d649c65-38a4-464a-b131-c077d433f6ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/actions/spells/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/actions/spells/Spell1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PaintEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/objects/EffectObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/controller/DataProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/controller/DataProvider$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/controller/DataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/controller/DataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/model/Coordanate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/model/Coordanate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Educational_project_1/view/MainField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/META-INF/game1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/DataProvider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/DataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/GameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/HeroKeyListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/HeroKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/LogicThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/controller/MainCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/Coordanate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/PaintBackground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/PaintElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/Renderer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/Renderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/objects/BarrierObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/objects/BuildingObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/objects/TreeObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/model/objects/VisualObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/view/MainField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/view/MainField$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/game1/view/MainField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/environment/5be6f35d-6bd9-4408-b72e-eb35a1657183.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Coordanate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Coordanate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainField.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/actions/spells/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#2722#2723#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/MainField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/DataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+              <folding>
+                <element signature="method#getObject#0;class#DataProvider#0" />
+                <element signature="method#getFieldStart#0;class#DataProvider#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/actions/spells/Spell1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/model/objects/EffectObject.java" />
+        <option value="$PROJECT_DIR$/src/model/PaintEffect.java" />
+        <option value="$PROJECT_DIR$/src/model/ChangeAbleCoor.java" />
+        <option value="$PROJECT_DIR$/src/model/Coordanate.java" />
+        <option value="$PROJECT_DIR$/src/controller/actions/spells/Spell1.java" />
+        <option value="$PROJECT_DIR$/src/view/MainField.java" />
+        <option value="$PROJECT_DIR$/src/controller/actions/spells/Action.java" />
+        <option value="$PROJECT_DIR$/src/controller/DataProvider.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="28" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="spells" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Educational_project_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Educational_project_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562831909249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562858548326" />
     <property name="last_opened_file_path" value="D:/Study/TeamWork/project" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -30,6 +228,149 @@
         <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d649c65-38a4-464a-b131-c077d433f6ce" name="Default Changelist" comment="" />
+      <created>1562831807986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562831807986</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/image/DirectColorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1015" selection-start-line="1015" selection-end-line="1015" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/objects/EffectObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PaintElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ChangeAbleCoor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Coordanate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PaintEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+          <folding>
+            <element signature="method#getObject#0;class#DataProvider#0" />
+            <element signature="method#getFieldStart#0;class#DataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/actions/spells/Spell1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/actions/spells/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

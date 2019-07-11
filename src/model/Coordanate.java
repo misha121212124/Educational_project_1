@@ -32,19 +32,12 @@ public class Coordanate{
         return y;
     }
 
-//    public int getAbsoluteX(){
-//        return x + correctionX;
-//    }
-//
-//    public int getAbsoluteY(){
-//        return y + correctionY;
-//    }
-//
-//    public void correctCoor(int x, int y){
-//        if(flag){
-//            this.correctionX = x;
-//            this.correctionY = y;
-//            flag = false;
-//        }
-//    }
+    private void setCoor(int x, int y){
+        this.x =x;
+        this.y =y;
+    }
+
+    public void setCoor(Coordanate coor, int x, int y){
+        coor.setCoor(x,y);
+    }
 }

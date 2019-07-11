@@ -1,6 +1,7 @@
 package model;
 
 import controller.GameController;
+import controller.actions.spells.Spell1;
 
 import java.awt.*;
 
