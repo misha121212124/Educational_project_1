@@ -54,13 +54,11 @@ public class MainField extends JPanel implements Runnable{
         int x2 = x1+Renderer.getFieldWidth();
         int y2 = y1+Renderer.getFieldHeight();
 
-        //for (int i = 1; i<10;i++)
-            for (PaintElement temp: DataProvider.getObjects()) {
-                if(temp.isOnField(x1, y1, x2, y2)){
-                    list.add(temp);
-                }
+        for (PaintElement temp: DataProvider.getObjects()) {
+            if(temp.isOnField(x1, y1, x2, y2)){
+                list.add(temp);
             }
-
+        }
         for (PaintEffect temp:DataProvider.getInterimObjects()) {
             list.add(temp);
         }
@@ -71,8 +69,8 @@ public class MainField extends JPanel implements Runnable{
                 return o1.compare(o2);
             }
         });
-        PaintElement.loadPosition(mainChar);
 
+        PaintElement.loadPosition(mainChar);
         for (PaintElement temp: list) {
             //PaintElement.loadPosition(mainChar);
             temp.draw(g2d);
@@ -111,12 +109,10 @@ public class MainField extends JPanel implements Runnable{
             beforeTime = System.currentTimeMillis();
             repaint();
             timeDiff = System.currentTimeMillis() - beforeTime;
-            //System.out.println(timeDiff);
             sleep = DELAY-timeDiff;
             if (sleep < 0) {
                 sleep = 2;
             }
-            //fpsCount++;
             try {
                 Thread.sleep(sleep);
             } catch (InterruptedException e) {

@@ -3,6 +3,7 @@ package model;
 import controller.DataProvider;
 import controller.GameController;
 import controller.HeroKeyListener;
+import controller.HeroMouseListener;
 import view.MainField;
 
 import java.awt.*;
@@ -82,6 +83,7 @@ public class Renderer{
 
         mainField = new MainField();
         jFrame.addKeyListener(new HeroKeyListener());
+        jFrame.addMouseListener(new HeroMouseListener());
         DataProvider.setDimension(Toolkit.getDefaultToolkit().getScreenSize());
         mainField.setPreferredSize(DataProvider.getDimension());
         jFrame.add(mainField);

@@ -1,6 +1,5 @@
 package controller;
 
-import controller.actions.spells.Spell1;
 import model.*;
 import model.Renderer;
 import model.objects.BarrierObject;
@@ -60,9 +59,6 @@ public class DataProvider {
         return mainChar;
     }
 
-    static {
-    //mainChar = new MainCharacter();
-    }
 
     public static VisualObject getObject(Coordanate coor, int type){
         Image image;
@@ -117,14 +113,12 @@ public class DataProvider {
             for (VisualObject temp: DataProvider.getMap().getObjects()[i]) {
                     objects.add(temp.getPaintElement(false));
             }
-        System.out.println(objects.size());
         objects.sort(new Comparator<PaintElement>() {
             @Override
             public int compare(PaintElement o1, PaintElement o2) {
                 return o1.getVisOb().compare(o2.getVisOb());
             }
         });
-        interimObjects.add(new Spell1(0,0,100,200,40,15).getPaintEffect());
 
     }
 

@@ -1,7 +1,6 @@
 package controller.actions.spells;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +18,7 @@ public class Spell1 extends Action{
     }
 
     public Spell1(int x1, int y1, int x2, int y2, int width, int height/*, Image image*/) {
-        super(x1,y1,x2,y2,width,height,6,buff[0]);
+        super(x1,y1,x2,y2,width,height,20,buff[0],800);
     }
 
 }
