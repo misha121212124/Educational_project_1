@@ -1,6 +1,5 @@
 package model.objects;
 
-import controller.DataProvider;
 import model.Coordanate;
 import model.Map;
 
@@ -40,26 +39,15 @@ public class BuildingObject extends VisualObject {
                     mudslide*=getDividerX();
                     mudslide-=100;
                     mudslide/= Map.multiplier;
-                    if(mudslide<=0){
-                        mudslide /= 4;
-                    }
-                    else{
-                        mudslide = -mudslide/2;
-                    }
-                }else {
-                    System.out.println(visualObject.image.getWidth(null)+" "+visualObject.getCoor().getX()+" "+
-                            visualObject.getCoor().getY() + " " + mudslide+" "+getCoor().getX()+" "+getCoor().getY());
+                    if(mudslide<=0)
+                         mudslide /= 4;
+                    else mudslide = -mudslide/2;
                 }
                 Coordanate newCoor = new Coordanate(getCoor().getX(),getCoor().getY()+mudslide);
-                System.out.println(mudslide);
                 return new VisualObject(newCoor,null,0).compare(visualObject);
 
             default: return  super.compare(visualObject);
         }
-//        int result = super.compare(visualObject);
-//        if(result==0)
-//            result = new Integer(-getCoor().getX()).compareTo(visualObject.getCoor().getX());
-//        return result;
     }
 
 }

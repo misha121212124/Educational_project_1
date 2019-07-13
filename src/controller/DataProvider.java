@@ -1,8 +1,6 @@
 package controller;
 
-import model.Coordanate;
-import model.Map;
-import model.PaintElement;
+import model.*;
 import model.Renderer;
 import model.objects.BarrierObject;
 import model.objects.BuildingObject;
@@ -25,6 +23,7 @@ public class DataProvider {
     private static int factor = 0;
 
     private static ArrayList<PaintElement> objects = new ArrayList<PaintElement>();
+    private static ArrayList<PaintEffect> interimObjects = new ArrayList<PaintEffect>();
 
     static {
         map = new Map();
@@ -60,9 +59,6 @@ public class DataProvider {
         return mainChar;
     }
 
-    static {
-    //mainChar = new MainCharacter();
-    }
 
     public static VisualObject getObject(Coordanate coor, int type){
         Image image;
@@ -87,6 +83,7 @@ public class DataProvider {
 
         return visualObject;
     }
+
     public static Coordanate getFieldStart() {
         int x1 = mainChar.getX()- model.Renderer.getFieldWidth()/2;
         int y1 = mainChar.getY()- model.Renderer.getFieldHeight()/2;
@@ -116,24 +113,28 @@ public class DataProvider {
             for (VisualObject temp: DataProvider.getMap().getObjects()[i]) {
                     objects.add(temp.getPaintElement(false));
             }
-        System.out.println(objects.size());
-        Comparator<PaintElement> comparator= new Comparator<PaintElement>() {
+        objects.sort(new Comparator<PaintElement>() {
             @Override
             public int compare(PaintElement o1, PaintElement o2) {
                 return o1.getVisOb().compare(o2.getVisOb());
             }
-        };
-            /////////////////////////////////////////////
-//        try {
-            objects.sort(comparator);
-//        }catch (IllegalArgumentException ex){
-//
-//        }
-        ////////////////////////////////////////////////
+        });
 
     }
 
     public static ArrayList<PaintElement> getObjects() {
         return objects;
+    }
+
+    public static ArrayList<PaintEffect> getInterimObjects() {
+        return interimObjects;
+    }
+
+    public static void addInterimObject(PaintEffect interimObject) {
+        DataProvider.interimObjects.add(interimObject);
+    }
+
+    public static void removeInterimObject(PaintEffect interimObject) {
+        DataProvider.interimObjects.remove(interimObject);
     }
 }

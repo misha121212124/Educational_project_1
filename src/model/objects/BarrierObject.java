@@ -16,7 +16,7 @@ public class BarrierObject extends VisualObject {
     public int compare(VisualObject visualObject) {
         int result = super.compare(visualObject);
         if(result==0)
-            result = new Integer(-getCoor().getX()).compareTo(visualObject.getCoor().getX());
+            result = - new Integer(getCoor().getX()).compareTo(visualObject.getCoor().getX());
         return result;
     }
 
